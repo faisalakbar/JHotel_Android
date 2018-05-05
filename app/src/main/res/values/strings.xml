@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JHotel_Android_Faisal</string>
+    <string name="email_String">E-Mail</string>
+    <string name="password_String">Password</string>
+    <string name="button_Login">Login</string>
+    <string name="button_Register">Register</string>
+    <string name="fullname_String">Full Name</string>
+</resources>

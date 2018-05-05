@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="room_number" type="id" />
+    <item name="tariff" type="id" />
+    <item name="durasi_hari" type="id" />
+    <item name="total_biaya" type="id" />
+    <item name="hitung" type="id" />
+    <item name="pesan" type="id" />
+    <item name="child" type="id" />
+    <item name="groupHeader" type="id" />
+</resources>

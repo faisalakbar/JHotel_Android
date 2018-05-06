@@ -1,9 +1,5 @@
 package com.example.faisalakbar.jhotel_android_faisal;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import android.content.Context;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
@@ -11,6 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class MenuListAdapter extends BaseExpandableListAdapter {
 
@@ -21,7 +22,7 @@ public class MenuListAdapter extends BaseExpandableListAdapter {
     public MenuListAdapter(Context context, ArrayList<Hotel> listHotel, HashMap<Hotel, ArrayList<Room>> childMapping) {
         this._context = context;
         this.listHotel = listHotel;
-        this.childMapping=childMapping;
+        this.childMapping = childMapping;
     }
 
     @Override

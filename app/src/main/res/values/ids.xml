@@ -8,4 +8,7 @@
     <item name="pesan" type="id" />
     <item name="child" type="id" />
     <item name="groupHeader" type="id" />
+    <item name="tvRegHere" type="id" />
+    <item name="lvExp" type="id" />
+    <item name="pesanan" type="id" />
 </resources>

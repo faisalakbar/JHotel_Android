@@ -29,8 +29,8 @@ public class RegisterActivity extends AppCompatActivity {
         regButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String fullName = regFullName.getText().toString();
-                final String email = regEmail.getText().toString();
+                String fullName = regFullName.getText().toString();
+                String email = regEmail.getText().toString();
                 final String password = regPassword.getText().toString();
 
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
